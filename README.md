@@ -1,33 +1,77 @@
 # X-Robot Papers
 
-机器人与具身智能最新论文收藏库。
+机器人与具身智能最新论文收藏列表。
 
-这个仓库用于公开归档每日发现的论文，重点覆盖四足机器人导航、locomotion、Sim2Real、ROS/Nav2、SLAM、控制、VLA、移动操作、机器人学习与工程部署。
+这个仓库公开归档我每天发现的机器人论文，重点关注四足机器人导航、locomotion、Sim2Real、ROS/Nav2、SLAM、控制、VLA、移动操作、机器人学习与真实系统部署。
 
-内容定位：
+## 论文列表
 
-- 论文标题保留原文。
-- 摘要、收藏理由和工程备注默认使用中文。
-- 每篇论文尽量同时保存 arXiv、alphaXiv 和 PDF 链接。
-- 这里只做论文收藏与阅读管理，不写成推文草稿。
+### 2026-06-26 添加
 
-## Structure
+#### MPC-Injection: Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins
 
-- `papers/`: 按月份整理的人类可读 Markdown 论文列表。
-- `data/`: 机器可读 JSONL 数据，便于后续同步 Notion、脚本检索或生成报告。
-- `docs/schema.md`: 字段说明和写入约定。
+- 发布日期：2026-06-24
+- 方向：Locomotion / Quadruped / RL / Sim2Real / Control
+- 优先级：High
+- arXiv：https://arxiv.org/abs/2606.26392
+- alphaXiv：https://alphaxiv.org/abs/2606.26392
+- PDF：https://arxiv.org/pdf/2606.26392
+- 一句话总结：使用 MPC 生成的 transitions，把 off-policy locomotion RL 引向更可部署的行为区域。
+- 收藏理由：非常贴近四足 RL 部署、控制器先验、Sim2Real 和“高 reward 不等于可用 gait”的工程问题。
+- 工程备注：重点看它和 reward shaping 的边界，以及学出来的 gait 是否能通过真实机器人的命令接口、控制延迟和安全约束。
 
-## Related Notion Database
+#### NavIsaacLab: Generating Realistic Crowd via Parallel Robot Learning for Benchmarking Human-aware Navigation
 
-Notion 库：X-Robot 最新论文收藏
+- 发布日期：2026-06-24
+- 方向：Navigation / Isaac / Benchmark / Sim2Real
+- 优先级：High
+- arXiv：https://arxiv.org/abs/2606.26265
+- alphaXiv：https://alphaxiv.org/abs/2606.26265
+- PDF：https://arxiv.org/pdf/2606.26265
+- 一句话总结：基于 Isaac Lab 生成人群导航场景，用于 human-aware navigation benchmark。
+- 收藏理由：适合沉淀 ROS/Nav2 social navigation、Isaac 仿真和导航 benchmark 设计思路。
+- 工程备注：重点检查传感器假设、人群行为真实性、动态障碍恢复能力，以及它和 Nav2 测试方式的对应关系。
 
-- Database: https://app.notion.com/p/7c89bf9b7178407a8ebe4ecc5144d899
-- Data source: `collection://337098bf-0d98-4207-ad94-7fe57f9c91e3`
+#### StairMaster: Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots
 
-## Link Rule
+- 发布日期：2026-06-24
+- 方向：Quadruped / Locomotion / Sim2Real / RL
+- 优先级：High
+- arXiv：https://arxiv.org/abs/2606.25765
+- alphaXiv：https://alphaxiv.org/abs/2606.25765
+- PDF：https://arxiv.org/pdf/2606.25765
+- 一句话总结：面向空心楼梯的四足三阶段 RL 框架，重点处理深度感知噪声和 Sim2Real。
+- 收藏理由：问题非常具体：深度稀疏、腿部卡陷、主动感知和极端地形稳定性。
+- 工程备注：重点看真实硬件测试、深度 artifact 建模、跌倒/恢复策略和控制延迟假设。
 
-arXiv 论文自动补 alphaXiv 链接：
+#### Learning Perceptive Platform Adaptive Locomotion Controllers for Quadrupedal Robots
 
-```text
-https://arxiv.org/abs/<paper_id> -> https://alphaxiv.org/abs/<paper_id>
-```
+- 发布日期：2026-06-23
+- 方向：Quadruped / Locomotion / RL / Sim2Real
+- 优先级：Medium
+- arXiv：https://arxiv.org/abs/2606.25179
+- alphaXiv：https://alphaxiv.org/abs/2606.25179
+- PDF：https://arxiv.org/pdf/2606.25179
+- 一句话总结：研究跨不同四足平台的形态自适应 perceptive locomotion controller。
+- 收藏理由：适合思考 universal quadruped policy 的边界，以及不同机器人平台之间的部署差异。
+- 工程备注：重点比较 blind、critic-perceptive 和 fully perceptive 方案，关注感知噪声与形态差异造成的稳定性问题。
+
+#### RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection
+
+- 发布日期：2026-06-25
+- 方向：VLA / Benchmark / Dataset
+- 优先级：Medium
+- arXiv：https://arxiv.org/abs/2606.27355
+- alphaXiv：https://alphaxiv.org/abs/2606.27355
+- PDF：https://arxiv.org/pdf/2606.27355
+- 一句话总结：把部署前 smoke test rollout 转成监督信号，用于在多个 VLA policy 之间做选择。
+- 收藏理由：适合作为 VLA 部署评测、策略路由和防止测试指标虚高的方法笔记。
+- 工程备注：重点看 smoke test 是否覆盖真实 failure mode，是否存在评估泄漏，以及如何映射到真机 rollout ledger。
+
+## 月度归档
+
+- [2026-06](papers/2026-06.md)
+
+## 数据文件
+
+- [JSONL](data/papers.jsonl)
