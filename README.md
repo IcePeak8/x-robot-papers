@@ -66,7 +66,7 @@
 `Quadruped` `Locomotion` `RL` `Sim2Real`
 
 - 发布日期：2026-06-23
-- 链接：[arXiv](https://arxiv.org/abs/2606.25179) · [alphaXiv](https://alphixiv.org/abs/2606.25179) · [PDF](https://arxiv.org/pdf/2606.25179)
+- 链接：[arXiv](https://arxiv.org/abs/2606.25179) · [alphaXiv](https://alphaxiv.org/abs/2606.25179) · [PDF](https://arxiv.org/pdf/2606.25179)
 - 一句话总结：研究跨不同四足平台的形态自适应 perceptive locomotion controller。
 - 收藏理由：适合思考 universal quadruped policy 的边界，以及不同机器人平台之间的部署差异。
 - 工程备注：重点比较 blind、critic-perceptive 和 fully perceptive 方案，关注感知噪声与形态差异造成的稳定性问题。
