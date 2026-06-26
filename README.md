@@ -4,20 +4,11 @@
 
 ## 2026-06-26 添加
 
-- **MPC-Injection: Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins** · [arXiv](https://arxiv.org/abs/2606.26392) · [alphaXiv](https://alphaxiv.org/abs/2606.26392) · [PDF](https://arxiv.org/pdf/2606.26392)  
-  使用 MPC 生成的 transitions，把 off-policy locomotion RL 引向更可部署的行为区域。
-
-- **NavIsaacLab: Generating Realistic Crowd via Parallel Robot Learning for Benchmarking Human-aware Navigation** · [arXiv](https://arxiv.org/abs/2606.26265) · [alphaXiv](https://alphaxiv.org/abs/2606.26265) · [PDF](https://arxiv.org/pdf/2606.26265)  
-  基于 Isaac Lab 生成人群导航场景，用于 human-aware navigation benchmark。
-
-- **StairMaster: Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots** · [arXiv](https://arxiv.org/abs/2606.25765) · [alphaXiv](https://alphaxiv.org/abs/2606.25765) · [PDF](https://arxiv.org/pdf/2606.25765)  
-  面向空心楼梯的四足三阶段 RL 框架，重点处理深度感知噪声和 Sim2Real。
-
-- **Learning Perceptive Platform Adaptive Locomotion Controllers for Quadrupedal Robots** · [arXiv](https://arxiv.org/abs/2606.25179) · [alphaXiv](https://alphaxiv.org/abs/2606.25179) · [PDF](https://arxiv.org/pdf/2606.25179)  
-  研究跨不同四足平台的形态自适应 perceptive locomotion controller。
-
-- **RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection** · [arXiv](https://arxiv.org/abs/2606.27355) · [alphaXiv](https://alphaxiv.org/abs/2606.27355) · [PDF](https://arxiv.org/pdf/2606.27355)  
-  把部署前 smoke test rollout 转成监督信号，用于在多个 VLA policy 之间做选择。
+- **MPC-Injection: Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins** · [arXiv](https://arxiv.org/abs/2606.26392) · [alphaXiv](https://alphaxiv.org/abs/2606.26392) — 使用 MPC 生成的 transitions，把 off-policy locomotion RL 引向更可部署的行为区域。
+- **NavIsaacLab: Generating Realistic Crowd via Parallel Robot Learning for Benchmarking Human-aware Navigation** · [arXiv](https://arxiv.org/abs/2606.26265) · [alphaXiv](https://alphaxiv.org/abs/2606.26265) — 基于 Isaac Lab 生成人群导航场景，用于 human-aware navigation benchmark。
+- **StairMaster: Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots** · [arXiv](https://arxiv.org/abs/2606.25765) · [alphaXiv](https://alphaxiv.org/abs/2606.25765) — 面向空心楼梯的四足三阶段 RL 框架，重点处理深度感知噪声和 Sim2Real。
+- **Learning Perceptive Platform Adaptive Locomotion Controllers for Quadrupedal Robots** · [arXiv](https://arxiv.org/abs/2606.25179) · [alphaXiv](https://alphaxiv.org/abs/2606.25179) — 研究跨不同四足平台的形态自适应 perceptive locomotion controller。
+- **RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection** · [arXiv](https://arxiv.org/abs/2606.27355) · [alphaXiv](https://alphaxiv.org/abs/2606.27355) — 把部署前 smoke test rollout 转成监督信号，用于在多个 VLA policy 之间做选择。
 
 ## Archive
 
