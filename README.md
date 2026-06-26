@@ -2,7 +2,7 @@
 
 > Robotics / Embodied AI paper radar for quadruped navigation, locomotion, Sim2Real, ROS/Nav2, VLA, SLAM, control, and real robot deployment.
 
-![papers](https://img.shields.io/badge/papers-5-blue) ![high-priority](https://img.shields.io/badge/high_priority-3-red) ![latest](https://img.shields.io/badge/latest-2026--06--26-green) ![language](https://img.shields.io/badge/notes-Chinese-orange)
+![papers](https://img.shields.io/badge/papers-5-blue) ![latest](https://img.shields.io/badge/latest-2026--06--26-green) ![language](https://img.shields.io/badge/notes-Chinese-orange)
 
 ## Radar
 
@@ -12,7 +12,7 @@
 | Navigation / Isaac | 1 | Isaac Lab、human-aware navigation、动态人群 benchmark |
 | VLA / Evaluation | 1 | VLA smoke test、部署前评测、policy routing |
 
-## High Priority
+## Featured Papers
 
 | Paper | Area | Links | 为什么值得看 |
 | --- | --- | --- | --- |
@@ -33,7 +33,7 @@
 
 #### MPC-Injection: Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins
 
-`Locomotion` `Quadruped` `RL` `Sim2Real` `Control` `High`
+`Locomotion` `Quadruped` `RL` `Sim2Real` `Control`
 
 - 发布日期：2026-06-24
 - 链接：[arXiv](https://arxiv.org/abs/2606.26392) · [alphaXiv](https://alphaxiv.org/abs/2606.26392) · [PDF](https://arxiv.org/pdf/2606.26392)
@@ -43,7 +43,7 @@
 
 #### NavIsaacLab: Generating Realistic Crowd via Parallel Robot Learning for Benchmarking Human-aware Navigation
 
-`Navigation` `Isaac` `Benchmark` `Sim2Real` `High`
+`Navigation` `Isaac` `Benchmark` `Sim2Real`
 
 - 发布日期：2026-06-24
 - 链接：[arXiv](https://arxiv.org/abs/2606.26265) · [alphaXiv](https://alphaxiv.org/abs/2606.26265) · [PDF](https://arxiv.org/pdf/2606.26265)
@@ -53,7 +53,7 @@
 
 #### StairMaster: Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots
 
-`Quadruped` `Locomotion` `Sim2Real` `RL` `High`
+`Quadruped` `Locomotion` `Sim2Real` `RL`
 
 - 发布日期：2026-06-24
 - 链接：[arXiv](https://arxiv.org/abs/2606.25765) · [alphaXiv](https://alphaxiv.org/abs/2606.25765) · [PDF](https://arxiv.org/pdf/2606.25765)
@@ -63,17 +63,17 @@
 
 #### Learning Perceptive Platform Adaptive Locomotion Controllers for Quadrupedal Robots
 
-`Quadruped` `Locomotion` `RL` `Sim2Real` `Medium`
+`Quadruped` `Locomotion` `RL` `Sim2Real`
 
 - 发布日期：2026-06-23
-- 链接：[arXiv](https://arxiv.org/abs/2606.25179) · [alphaXiv](https://alphaxiv.org/abs/2606.25179) · [PDF](https://arxiv.org/pdf/2606.25179)
+- 链接：[arXiv](https://arxiv.org/abs/2606.25179) · [alphaXiv](https://alphixiv.org/abs/2606.25179) · [PDF](https://arxiv.org/pdf/2606.25179)
 - 一句话总结：研究跨不同四足平台的形态自适应 perceptive locomotion controller。
 - 收藏理由：适合思考 universal quadruped policy 的边界，以及不同机器人平台之间的部署差异。
 - 工程备注：重点比较 blind、critic-perceptive 和 fully perceptive 方案，关注感知噪声与形态差异造成的稳定性问题。
 
 #### RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection
 
-`VLA` `Benchmark` `Dataset` `Medium`
+`VLA` `Benchmark` `Dataset`
 
 - 发布日期：2026-06-25
 - 链接：[arXiv](https://arxiv.org/abs/2606.27355) · [alphaXiv](https://alphaxiv.org/abs/2606.27355) · [PDF](https://arxiv.org/pdf/2606.27355)
